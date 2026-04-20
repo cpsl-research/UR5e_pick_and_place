@@ -67,7 +67,7 @@ ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur5e launch_rviz:=true
 Now you can run any nodes and observe the robot's trajectory and plan on RViz.  
 
 # Marker Detection
-This marker detection script uses the Intel RealSense ROS library to subscribe to topics containing camera's intrinsic matrix and frame data. This detection script will also draw the detected corners onto an image of the marker. 
+This marker detection script uses the Intel RealSense ROS library to subscribe to topics containing camera's intrinsic matrix and frame data. This detection script will also draw the detected corners onto an image of the marker. The marker detection, *most importantly*, publishes a transform between `camera_color_optical_frame` and a frame called `marker`. Note this marker frame might need to be changed tos specific ID #s if different ArUco markers are used at once. Also I've accounted for ArUco markers 5 cm by 5 cm, but this might need to be updated. 
 To test the marker detection script in isolation, first launch Intel RealSense:  
 ```
 ros2 launch realsense2_camera rs_launch.py     pointcloud.enable:=true     align_depth.enable:=true     depth_module.depth_profile:=424x240x15     rgb_camera.color_profile:=424x240x15     pointcloud.pointcloud_qos:=SENSOR_DATA
@@ -79,3 +79,5 @@ Then, run the marker detection node:
 ```
 ros2 run realsense_pub publisher_node
 ```
+
+
