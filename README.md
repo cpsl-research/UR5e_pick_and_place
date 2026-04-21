@@ -35,7 +35,7 @@ source install/setup.bash
 ```
 
 *Step 3: Install MoveIt.*
-Depending on the device used, MoveIt installation can be painful. For context, it took around ~4 hours to install this software on the Jerson Orin Nano (as listed in the documentation, use the flag `https://moveit.picknik.ai/main/doc/tutorials/getting_started/getting_started.html`)
+Depending on the device used, MoveIt installation can be painful. For context, it took around ~4 hours to install this software on the Jerson Orin Nano (as listed in the documentation, use the flag `MAKEFLAGS="-j4 -l1" colcon build --executor sequential`)
 Follow this guide: https://moveit.picknik.ai/main/doc/tutorials/getting_started/getting_started.html 
 
 *Step 4: UR5e Cap Installation*
