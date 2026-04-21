@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5e_movement.dir/src/ur5e_movement.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ur5e_movement[0m
+[100%] Built target ur5e_movement
+-- Install configuration: ""
+-- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/lib/ur5e_movement/ur5e_movement
+-- Set non-toolchain portion of runtime path of "/home/cpsl_thor1/ur5e_ik/install/ur5e_movement/lib/ur5e_movement/ur5e_movement" to ""
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ament_index/resource_index/package_run_dependencies/ur5e_movement
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ament_index/resource_index/parent_prefix_path/ur5e_movement
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/ament_prefix_path.sh
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/path.sh
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/path.dsv
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.bash
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.sh
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.zsh
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.dsv
+-- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/package.dsv
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ament_index/resource_index/packages/ur5e_movement
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/cmake/ur5e_movementConfig.cmake
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/cmake/ur5e_movementConfig-version.cmake
+-- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/package.xml

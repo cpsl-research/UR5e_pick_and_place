@@ -1,0 +1,77 @@
+[0.016s] Invoking command in '/home/cpsl_thor1/ur5e_ik/build/ur5e_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/moveit_configs_utils:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_joint_trajectory_controller:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_controller_manager:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2controlcli:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2_controllers_test_nodes:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/marker_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cpsl_thor1/ur5e_ik/src/ur5e_movement -DCMAKE_INSTALL_PREFIX=/home/cpsl_thor1/ur5e_ik/install/ur5e_movement
+[0.099s] -- The C compiler identification is GNU 13.3.0
+[0.179s] -- The CXX compiler identification is GNU 13.3.0
+[0.208s] -- Detecting C compiler ABI info
+[0.352s] -- Detecting C compiler ABI info - done
+[0.372s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.372s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.391s] -- Detecting CXX compiler ABI info
+[0.548s] -- Detecting CXX compiler ABI info - done
+[0.563s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.564s] -- Detecting CXX compile features
+[0.565s] -- Detecting CXX compile features - done
+[0.583s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.868s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.101s] -- Found moveit_ros_planning_interface: 2.14.1 (/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[1.308s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[1.446s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.472s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.821s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.935s] -- Found parameter_traits: 0.7.1 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.009s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.019s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.166s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.200s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.355s] -- Found rclcpp_lifecycle: 28.1.18 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.400s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[2.480s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.480s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.690s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[2.726s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[2.751s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[2.792s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.939s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cpsl_thor1/ur5e_ik/src/ur5e_movement/include>
+[2.939s] -- Configured cppcheck exclude dirs and/or files: 
+[2.941s] -- Added test 'lint_cmake' to check CMake code style
+[2.943s] -- Added test 'uncrustify' to check C / C++ code style
+[2.943s] -- Configured uncrustify additional arguments: 
+[2.945s] -- Added test 'xmllint' to check XML markup files
+[2.948s] -- Configuring done (2.9s)
+[2.979s] -- Generating done (0.0s)
+[2.984s] -- Build files have been written to: /home/cpsl_thor1/ur5e_ik/build/ur5e_movement
+[3.008s] Invoked command in '/home/cpsl_thor1/ur5e_ik/build/ur5e_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/moveit_configs_utils:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_joint_trajectory_controller:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_controller_manager:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2controlcli:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2_controllers_test_nodes:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/marker_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cpsl_thor1/ur5e_ik/src/ur5e_movement -DCMAKE_INSTALL_PREFIX=/home/cpsl_thor1/ur5e_ik/install/ur5e_movement
+[3.010s] Invoking command in '/home/cpsl_thor1/ur5e_ik/build/ur5e_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/moveit_configs_utils:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_joint_trajectory_controller:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_controller_manager:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2controlcli:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2_controllers_test_nodes:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/marker_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cpsl_thor1/ur5e_ik/build/ur5e_movement -- -j14 -l14
+[3.109s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5e_movement.dir/src/ur5e_movement.cpp.o[0m
+[5.043s] In file included from [01m[K/home/cpsl_thor1/ur5e_ik/src/ur5e_movement/src/ur5e_movement.cpp:6[m[K:
+[5.044s] [01m[K/home/cpsl_thor1/ur5e_manipulator/ur5_ws/src/moveit2/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[5.044s]    51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[5.044s]       |                                                                       [01;36m[K^[m[K
+[5.044s] 
+[9.561s] [100%] [32m[1mLinking CXX executable ur5e_movement[0m
+[9.937s] [100%] Built target ur5e_movement
+[9.958s] Invoked command in '/home/cpsl_thor1/ur5e_ik/build/ur5e_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/moveit_configs_utils:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_joint_trajectory_controller:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_controller_manager:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2controlcli:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2_controllers_test_nodes:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/marker_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cpsl_thor1/ur5e_ik/build/ur5e_movement -- -j14 -l14
+[9.977s] Invoking command in '/home/cpsl_thor1/ur5e_ik/build/ur5e_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/moveit_configs_utils:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_joint_trajectory_controller:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_controller_manager:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2controlcli:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2_controllers_test_nodes:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/marker_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cpsl_thor1/ur5e_ik/build/ur5e_movement
+[9.990s] -- Install configuration: ""
+[9.990s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/lib/ur5e_movement/ur5e_movement
+[9.991s] -- Set non-toolchain portion of runtime path of "/home/cpsl_thor1/ur5e_ik/install/ur5e_movement/lib/ur5e_movement/ur5e_movement" to ""
+[9.992s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ament_index/resource_index/package_run_dependencies/ur5e_movement
+[9.992s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ament_index/resource_index/parent_prefix_path/ur5e_movement
+[9.992s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/ament_prefix_path.sh
+[9.992s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/ament_prefix_path.dsv
+[9.995s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/path.sh
+[9.995s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/path.dsv
+[9.995s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.bash
+[9.995s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.sh
+[9.995s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.zsh
+[9.995s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.dsv
+[9.995s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/package.dsv
+[9.995s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ament_index/resource_index/packages/ur5e_movement
+[9.995s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/cmake/ur5e_movementConfig.cmake
+[9.996s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/cmake/ur5e_movementConfig-version.cmake
+[9.996s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/package.xml
+[9.997s] Invoked command in '/home/cpsl_thor1/ur5e_ik/build/ur5e_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/moveit_configs_utils:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_joint_trajectory_controller:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_controller_manager:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2controlcli:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2_controllers_test_nodes:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/marker_publisher:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cpsl_thor1/ur5e_ik/build/ur5e_movement

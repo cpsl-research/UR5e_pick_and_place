@@ -1,0 +1,15 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ur5e_movement.dir/src/ur5e_movement.cpp.o[0m
+In file included from [01m[K/home/cpsl_thor1/ur5e_ik/src/ur5e_movement/src/ur5e_movement.cpp:6[m[K:
+[01m[K/home/cpsl_thor1/ur5e_manipulator/ur5_ws/src/moveit2/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                             [01;36m[K^[m[K
+[01m[K/home/cpsl_thor1/ur5e_ik/src/ur5e_movement/src/ur5e_movement.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/cpsl_thor1/ur5e_ik/src/ur5e_movement/src/ur5e_movement.cpp:60:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto logger[m[K’
+   60 |   auto [01;31m[Klogger[m[K = rclcpp::get_logger("debug_logger");
+      |        [01;31m[K^~~~~~[m[K
+[01m[K/home/cpsl_thor1/ur5e_ik/src/ur5e_movement/src/ur5e_movement.cpp:23:14:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst rclcpp::Logger logger[m[K’
+   23 |   auto const [01;36m[Klogger[m[K = rclcpp::get_logger("ur5e_movement");
+      |              [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ur5e_movement.dir/build.make:76: CMakeFiles/ur5e_movement.dir/src/ur5e_movement.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ur5e_movement.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,5 @@
+In file included from [01m[K/home/cpsl_thor1/ur5e_ik/src/ur5e_movement/src/ur5e_movement.cpp:6[m[K:
+[01m[K/home/cpsl_thor1/ur5e_manipulator/ur5_ws/src/moveit2/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+   51 | a message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+      |                                                                       [01;36m[K^[m[K
+

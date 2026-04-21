@@ -1,0 +1,29 @@
+[0.017s] Invoking command in '/home/cpsl_thor1/ur5e_ik/build/ur5e_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/moveit_configs_utils:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_joint_trajectory_controller:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_controller_manager:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2controlcli:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2_controllers_test_nodes:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/marker_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cpsl_thor1/ur5e_ik/build/ur5e_movement -- -j14 -l14
+[0.140s] [ 50%] [32mBuilding CXX object CMakeFiles/ur5e_movement.dir/src/ur5e_movement.cpp.o[0m
+[2.111s] In file included from [01m[K/home/cpsl_thor1/ur5e_ik/src/ur5e_movement/src/ur5e_movement.cpp:6[m[K:
+[2.112s] [01m[K/home/cpsl_thor1/ur5e_manipulator/ur5_ws/src/moveit2/moveit_ros/planning_interface/move_group_interface/include/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[2.112s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[2.112s]       |                                                                             [01;36m[K^[m[K
+[6.798s] [100%] [32m[1mLinking CXX executable ur5e_movement[0m
+[7.192s] [100%] Built target ur5e_movement
+[7.214s] Invoked command in '/home/cpsl_thor1/ur5e_ik/build/ur5e_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/moveit_configs_utils:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_joint_trajectory_controller:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_controller_manager:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2controlcli:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2_controllers_test_nodes:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/marker_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cpsl_thor1/ur5e_ik/build/ur5e_movement -- -j14 -l14
+[7.233s] Invoking command in '/home/cpsl_thor1/ur5e_ik/build/ur5e_movement': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/moveit_configs_utils:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_joint_trajectory_controller:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_controller_manager:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2controlcli:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2_controllers_test_nodes:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/marker_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cpsl_thor1/ur5e_ik/build/ur5e_movement
+[7.248s] -- Install configuration: ""
+[7.249s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/lib/ur5e_movement/ur5e_movement
+[7.250s] -- Set non-toolchain portion of runtime path of "/home/cpsl_thor1/ur5e_ik/install/ur5e_movement/lib/ur5e_movement/ur5e_movement" to ""
+[7.250s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ament_index/resource_index/package_run_dependencies/ur5e_movement
+[7.250s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ament_index/resource_index/parent_prefix_path/ur5e_movement
+[7.250s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/ament_prefix_path.sh
+[7.251s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/ament_prefix_path.dsv
+[7.251s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/path.sh
+[7.251s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/environment/path.dsv
+[7.251s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.bash
+[7.251s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.sh
+[7.251s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.zsh
+[7.251s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/local_setup.dsv
+[7.251s] -- Installing: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/package.dsv
+[7.251s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ament_index/resource_index/packages/ur5e_movement
+[7.252s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/cmake/ur5e_movementConfig.cmake
+[7.252s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/cmake/ur5e_movementConfig-version.cmake
+[7.252s] -- Up-to-date: /home/cpsl_thor1/ur5e_ik/install/ur5e_movement/share/ur5e_movement/package.xml
+[7.253s] Invoked command in '/home/cpsl_thor1/ur5e_ik/build/ur5e_movement' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/moveit_configs_utils:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_joint_trajectory_controller:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/rqt_controller_manager:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2controlcli:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/ros2_controllers_test_nodes:/home/cpsl_thor1/ur5e_manipulator/ur5_ws/install/marker_publisher:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cpsl_thor1/ur5e_ik/build/ur5e_movement
