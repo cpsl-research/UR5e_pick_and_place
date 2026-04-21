@@ -1,0 +1,42 @@
+# RealSense D435i camera parameters for ur5e_d435i_bringup
+
+/**:
+  ros__parameters:
+    camera_name: "camera"
+    serial_no: ""
+    usb_port_id: ""
+    initial_reset: false
+
+    # Streams
+    enable_color: true
+    enable_depth: true
+    enable_infra1: false
+    enable_infra2: false
+    enable_gyro: true
+    enable_accel: true
+
+    # Resolution and framerate
+    rgb_camera.color_profile: "640x480x30"
+    depth_module.depth_profile: "640x480x30"
+
+    # Point cloud (colorized) - use internal param names with double underscores
+    pointcloud__neon_.enable: true
+    pointcloud__neon_.stream_filter: 2
+    pointcloud__neon_.allow_no_texture_points: false
+    pointcloud__neon_.ordered_pc: false
+
+    # Align depth to color frame
+    align_depth.enable: true
+
+    # TF: URDF provides tool0 -> camera_link.
+    # RealSense node provides camera_link -> optical frames.
+    publish_tf: true
+    tf_publish_rate: 0.0
+
+    # Depth post-processing filters
+    decimation_filter.enable: true
+    spatial_filter.enable: true
+    temporal_filter.enable: true
+    hole_filling_filter.enable: false
+
+    diagnostics_period: 0.0

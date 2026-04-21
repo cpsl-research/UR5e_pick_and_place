@@ -1,0 +1,10 @@
+# ArUco detection parameters for hand-eye calibration
+
+/**:
+  ros__parameters:
+    marker_dict: "DICT_7X7_100"
+    marker_size: 0.05
+    image_is_rectified: true
+    cam_frame: "camera_color_optical_frame"
+    output_frame: "camera_color_optical_frame"
+    corner_refinement: 1
