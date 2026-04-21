@@ -5,7 +5,8 @@ This guide is split into many parts:
 - Initial Setup
 - Running Simulations In RViz
 - Maker Detection For Hand-Eye Calibration
-- Hand-Eye Calibration Configs
+- Hand-Eye Calibration (Easy Hand-Eye)
+- Hand-Eye Calibration Configs (Manual)
 - Inverse Kinematics
 
 # Initial Setup 
@@ -79,5 +80,21 @@ Then, run the marker detection node:
 ```
 ros2 run realsense_pub publisher_node
 ```
+# Hand-Eye Calibration Easy Hand-Eye Library
+Easy Hand-Eye Library is a very standard library for computing transforms between camera and gripper or base. I'd prefer this over manual calibration (measuring offet of gripper from camera) because it is much more precise, and easier to recompute transforms if the camera moves. To preface, I was not able to have everything working with this library, but I've included everything I've learned about it. This is the documentation I used: https://github.com/marcoesposito1988/easy_handeye2. The documentation is not very detailed or clear - the most useful part of it is this example launch file: https://github.com/IFL-CAMP/easy_handeye/blob/master/docs/example_launch/ur5e_realsense_calibration.launch (shows example input arguments for UR5e and Intel RealSense camera). 
 
+To use this library, I'd recommend creating a launch file that runs these nodes (also using marker detector node in this repo):  
 
+```
+ros2 launch ur_robot_driver ur_control.launch.py ur_type:=ur5e launch_rviz:=true robot_ip:=192.168.56.101
+ros2 launch ur_moveit_config ur_moveit.launch.py ur_type:=ur5e
+ros2 launch realsense2_camera rs_launch.py     pointcloud.enable:=true     align_depth.enable:=true     depth_module.depth_profile:=424x240x15     rgb_camera.color_profile:=424x240x15     pointcloud.pointcloud_qos:=SENSOR_DATA
+ros2 run realsense_pub publisher_node
+ros2 launch easy_handeye2 calibrate.launch.py   name:=handeye1   calibration_type:=eye_in_hand   tracking_base_frame:=camera_color_optical_frame   tracking_marker_frame:=marker   robot_base_frame:=base_link   robot_effector_frame:=tool0
+```
+With these commands, you should be able to start taking samples and compute transforms!
+
+The library will automatically save the transform to a file - to publish the transform to the transform tree, use this command (note: handeye1 is the name I chose for the transform):  
+```
+ros2 launch easy_handeye2 publish.launch.py name:=handeye1
+```
