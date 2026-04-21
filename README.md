@@ -98,3 +98,25 @@ The library will automatically save the transform to a file - to publish the tra
 ```
 ros2 launch easy_handeye2 publish.launch.py name:=handeye1
 ```
+
+# Manual Hand-Eye Calibration
+
+In the `ur5e_d435i_bringup` directory, the transform is manually defined (measured transform and rotation between camera and gripper) in a urdf file called `ur5e_d435i.urdf.xacro`. By running these commands, it should be possible to publish the camera to gripper transform to the transform tree. 
+
+```
+ros2 launch ur5e_d435i_bringup ur5e_bringup.launch.py
+```
+Then press play in the Polyscope gui to start the external program.
+```
+rviz2 -d ~/ur5_ws/src/ur5e_d435i_bringup/config/ur5e_d435i.rviz
+```
+For more information on this directory, refer to the original git repo: https://github.com/cpsl-research/UR5_robot_arm_repo#.
+
+# Inverse Kinematics 
+This repo includes an inverse kinematics node that reads the transform tree to move the robot arm to the ArUco marker. 
+To run this script, make sure that there is a correct transform between the frames `camera_link` and `tool0` and that marker position is being detected and published (using the marker detector node in this repo). Also press play to start the external program.
+
+Run this command.
+```
+ros2 run ur5e_movement ur5e_movement
+```
